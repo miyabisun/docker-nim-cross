@@ -1,2 +1,9 @@
-# docker-cross-compiler-for-nim
-Dockerfile for Nim lang
+# Overview
+
+Dockerfile for Nim cross-compiler
+
+# ToDo
+
+- Install Clang
+    - [https://github.com/tpoechtrager/osxcross](https://github.com/tpoechtrager/osxcross)
+
