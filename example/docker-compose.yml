@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: miyabisun/nim-cross
+    volumes:
+      - .:/usr/local/src
+
