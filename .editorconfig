@@ -1,0 +1,16 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2
+charset = utf-8
+
+[*.md]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespacee = false
+
+[Makefile]
+indent_style = tab
+

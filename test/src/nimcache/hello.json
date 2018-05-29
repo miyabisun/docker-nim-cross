@@ -1,0 +1,10 @@
+{"compile":[
+["/usr/local/src/src/nimcache/hello.c", "/usr/bin/musl-gcc -c  -w -O3 -fno-strict-aliasing  -I/root/.choosenim/toolchains/nim-0.18.0/lib -o /usr/local/src/src/nimcache/hello.o /usr/local/src/src/nimcache/hello.c"],
+["/usr/local/src/src/nimcache/stdlib_system.c", "/usr/bin/musl-gcc -c  -w -O3 -fno-strict-aliasing  -I/root/.choosenim/toolchains/nim-0.18.0/lib -o /usr/local/src/src/nimcache/stdlib_system.o /usr/local/src/src/nimcache/stdlib_system.c"]
+],
+"link":[
+"/usr/local/src/src/nimcache/hello.o",
+"/usr/local/src/src/nimcache/stdlib_system.o"
+],
+"linkcmd": "/usr/bin/musl-gcc   -o /usr/local/src/dist/linux_amd64/hello  /usr/local/src/src/nimcache/hello.o /usr/local/src/src/nimcache/stdlib_system.o   -static  -ldl"
+}

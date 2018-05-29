@@ -1,8 +1,4 @@
 .*
 *.md
-*.yml
-dist
-src
-build.sh
-entrypoint.sh
 LICENSE
+test
