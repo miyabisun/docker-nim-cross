@@ -12,5 +12,5 @@ RUN bash /root/install-nim.sh && \
 ENV PATH $PATH:/root/.nimble/bin
 
 WORKDIR /usr/local/src
-CMD ["make","build"]
+CMD make
 

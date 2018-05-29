@@ -2,6 +2,6 @@
 !*/
 !*.*
 */nimcache/*
-dist/*
-!dist/.gitkeep
+test/dist/**
+!test/dist/.gitkeep
 
